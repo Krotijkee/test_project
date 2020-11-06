@@ -24,7 +24,7 @@ import static org.junit.Assert.assertEquals;
 
 @Epic(value = "Тестирование регистрации на supl.biz")
 @RunWith(value = Parameterized.class)
-public class LoginFormTest {
+public class SignUpFormTests {
     private static WebDriver driver;
     static HomePage home_page;
     static SignUpWindow sign_up_window;
